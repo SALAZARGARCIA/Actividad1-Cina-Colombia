@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cine Colombia</title>
+		
+		<meta name="descripcion" content="blog de Juliana Geraldine" />
+		<meta name="keywords" content="blog, Juliana, desarrollo web" />
+		
+		<link rel=stylesheet href="estilos.css" type="text/css" />
+	</head>
+	<body>
+		<div id="cajaheader">
+		</div>
+		<div id="principal" itemscope itemtype="http://www.data.vocabulary.org/Person">
+	<header>
+		<div id="logo"> </div>
+		<h1> <span itemprop="name">Cine Colombia </span> </h1>
+		<h2> <span itemprop="title"> Cine Colombia </span> </h2>
+		<nav>
+			<ul>
+				<li><a href="Blog.html"><canvas id="iconoinicio" width="50" height="50" style="border:1px solid black;"></canvas><br>Inicio</a></li>
+				<li><a href="noticias.html"><canvas id="icononoticias" width="50" height="50" style="border:1px solid black;"></canvas><br>Estrenos </a></li>
+				<li><a href="../sesiones/VISTA/registro.php"><canvas id="iconosobremi" width="50" height="50" style="border:1px solid black;"></canvas><br>Registrarse</a></li>
+				<li><a href="../sesiones/VISTA/seguridaddb.php"><canvas id="iconocontacto" width="50" height="50" style="border:1px solid black;"></canvas><br>Iniciar sesion</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="contenido">
+	
+		<section id="sobremi">
+		
+		
+	
+		
+			<span itemprop="photo"><div id="mifoto"></div><br><br><br>
+			
+			Cine Colombia una empresa de exhibición y distribución de cine en Colombia con sede en Bogotá. Es una empresa de capital privado colombiano en su mayoría perteneciente al Grupo Santo Domingo.
+
+			
+		</section>
+	
+	
+		
+	
+	<section>
+		
+		<article>
+			<div id="logonoticias"> </div>
+			<time>31-01-2018</time>
+			<h3>Jumamji: en la selva</h3>
+			<h4>Sinopsis:Cuatro chicos de bachillerato descubren una vieja consola de videojuegos con un juego del que nunca habían escuchado: Jumanji; y son lanzados de inmediato a la jungla del juego, allí se convierten literalmente en los avatares que eligieron. Ellos descubren que no sólo deben jugar Jumanji – deben sobrevivir a él. Para regresar al mundo real, vivirán la aventura más peligrosa de sus vidas: descubrir lo que dejó Alan Parrish hace 20 años y cambiar lo que piensan de sí mismos, o quedarán atrapados en el juego para siempre</h4>
+			<p>Genero:Comedia </p>
+			<video controls="controls" width="600px" height="300px" preload="preload">
+				<source src="jumanji.mp4" type="video/mp4" />
+		</article>
+
+		<article>
+			<div id="logonoticias"> </div>
+			<time>31-01-2018</time>
+			<h3>Jumamji: en la selva</h3>
+			<h4>Sinopsis:Cuatro chicos de bachillerato descubren una vieja consola de videojuegos con un juego del que nunca habían escuchado: Jumanji; y son lanzados de inmediato a la jungla del juego, allí se convierten literalmente en los avatares que eligieron. Ellos descubren que no sólo deben jugar Jumanji – deben sobrevivir a él. Para regresar al mundo real, vivirán la aventura más peligrosa de sus vidas: descubrir lo que dejó Alan Parrish hace 20 años y cambiar lo que piensan de sí mismos, o quedarán atrapados en el juego para siempre</h4>
+			<p>Genero:Comedia </p>
+			<video controls="controls" width="600px" height="300px" preload="preload">
+				<source src="jumanji.mp4" type="video/mp4" />
+				
+			</video>
+		</article>
+		<article>
+			<div id="logoaudio"> </div>
+			<time>31-01-2018</time>
+			<h3>Jumamji: en la selva</h3>
+			<h4>Sinopsis:Cuatro chicos de bachillerato descubren una vieja consola de videojuegos con un juego del que nunca habían escuchado: Jumanji; y son lanzados de inmediato a la jungla del juego, allí se convierten literalmente en los avatares que eligieron. Ellos descubren que no sólo deben jugar Jumanji – deben sobrevivir a él. Para regresar al mundo real, vivirán la aventura más peligrosa de sus vidas: descubrir lo que dejó Alan Parrish hace 20 años y cambiar lo que piensan de sí mismos, o quedarán atrapados en el juego para siempre</h4>
+			<p>Genero:Comedia </p>
+			<video controls="controls" width="600px" height="300px" preload="preload">
+				<source src="jumanji.mp4" type="video/mp4" />
+			</audio>
+		</article>
+	</section>
+	</div>
+	<footer>
+		<div class="vcard">
+			<div> <span class="name">Cine Colombia S.A</span>-<span class="locality">Bogotá</span>
+				<span class="region">Distrito capital</span>-<sapn class=countryname">colombia</span> </div>
+			<div> <span class="tel">6666666666</span>-<span class="email">cinecolombia@correo.com</span></div>
+		</div>
+	</footer>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript">
+	var primercolor = "Black";
+	var segundocolor = "lightgrey";
+	var tercercolor = "white";
+	var escala = 0.5; 
+	
+	//Icono Inicio
+	
+	var c=document.getElementById ("iconoinicio");
+	var cxt=c.getContext ("2d"); 
+	
+	cxt.fillStyle=(primercolor);
+	cxt.beginPath();
+	cxt.arc (escala*50, escala*50, escala*40,0, Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+	
+	cxt.fillStyle=(tercercolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*30,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+	
+	cxt.fillStyle=(primercolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+	
+	//Icono Noticias
+	
+	var c=document.getElementById("icononoticias");
+	var cxt=c.getContext ("2d");
+	
+	cxt.fillStyle=(primercolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+	
+	cxt.fillStyle=(primercolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*40,Math.PI,Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+	
+	//Icono Sobremi
+	
+	var c=document.getElementById("iconosobremi");
+	var cxt=c.getContext("2d");
+	
+	cxt.fillStyle=(primercolor);
+	cxt.beginPath();
+	cxt.arc(escala*50, escala*25, escala*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+	
+	cxt.fillStyle=(primercolor);
+	cxt.beginPath();
+	cxt.arc(escala*50, escala*90, escala*40, Math.PI, Math.PI*2, false);
+	cxt.closePath;
+	cxt.fill();
+	
+	//Icono Contacto
+	
+	var c=document.getElementById("iconocontacto");
+	var cxt=c.getContext ("2d");
+	
+	cxt.fillStyle=(segundocolor);
+	cxt.beginPath();
+	cxt.arc(escala*50-10, escala*25, escala*20,0, Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+	
+	cxt.fillStyle=(segundocolor);
+	cxt.beginPath();
+	cxt.arc(escala*50-10, escala*90, escala*40, Math.PI, Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+	
+	cxt.fillStyle=(primercolor);
+	cxt.beginPath();
+	cxt.arc(escala*50+10, escala*25, escala*20,0, Math.PI*2, true); 
+	cxt.closePath;
+	cxt.fill();
+	
+	cxt.fillStyle=(primercolor);
+	cxt.beginPath();
+	cxt.arc(escala*50+10, escala*90, escala*40, Math.PI, Math.PI*2, false); 
+	cxt.closePath;
+	cxt.fill();
+	
+</script>

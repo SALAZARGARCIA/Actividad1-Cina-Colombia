@@ -1,0 +1,437 @@
+/* Fuentes personalizadas */
+
+@font-face{
+	font-family: "ubuntu Regular";
+	src: url(fuentes/Ubuntu-R.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: "ubuntu Bold";
+	src: url(fuentes/Ubuntu-B.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: "ubuntu Italic";
+	src: url(fuentes/Ububtu_BI.ttf) format("truetype");
+}
+
+/* Estilos basicos */
+
+h1,h2,h3,h4,h5,h6{
+	font-family:"ubuntu Bold";
+}
+
+p{
+	font-family: "ubuntu Regular";
+}
+
+canvas{
+	border: 0px solid white;
+}
+
+body{
+	text-align: center;
+	margin: 0px;
+	background: url:("img/verde.png"), url("img/rojo.png");
+}
+
+#principal{
+	text-align: justify;
+	margin:auto;
+	width: 80%;
+	height: 100%;
+	position: relative;
+	background: rgba(0, 162, 226, 0.56);
+
+}
+
+#cajajeader{
+	width:100%;
+	height:100px;
+	position: absolute;
+	background: rgba (255,255,255,0.5);
+}
+
+header{
+	display:table;
+	margin:auto;
+	text-align: left;
+	width: 100%;
+	height: 100px;
+	background: #1071c7;
+	overflow: hidden;
+	border: 2px solid #1071c7 ;
+	
+	border-radius: 5px 50px 0px 0px;
+	-moz-border-radius: 5px 50px 0px 0px;
+	-webkit-border-radius: 5px 50px 0px 0px ;
+	
+	box-shadow: 0px 0px 10px #1071c7 ;
+	-moz-box-shadow: 0px 0px 10px #1071c7;
+	-webkit-box-shadow: 0px 0px 10px #1071c7;
+}
+
+footer{
+	text-align:center;
+	display:table;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	border: 2px solid black;
+	background: rgba(0,0,0,0.5);
+	
+	border-radius: 0px 0px 5px 35px;
+	-moz-border-radius: 0px 0px 5px 35px;
+	-webkit-border-radius: 0px 0px 5px 35px;
+	
+	box-shadow: 0px 0px 10px white;
+	-moz-box-shadow: 0px 0px 10px white;
+	-webkit-box-shadow: 0px 0px 10px white;
+}
+
+#contenido{
+	width:100%;
+	border-top: 0px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	
+	box-shadow: 0px 0px 10px black;
+	-moz-box-shadow: 0px 0px 10px black;
+	-webkit-box-shadow: 0px 0px 10px black;
+	background: rgba(255,255,255,0.5);
+}
+
+#mifoto{
+	width: 100px;
+	height: 100px;
+	font-family: "ubuntu Bold";
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	background-image: url("Cine-Colombia-logo.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: block;
+	border: 1px solid white;
+	border-radius: 0px 10px 0px 10px;
+	-moz-border-radius:0px 10px 0px 10px;
+	-webkit-border-radius:0px 10px 0px 10px;
+	
+	box-shadow: 0px 0px 10px darkred;
+	-moz-box-shadow:0px 0px 10px blue;
+	-webkit-box-shadow:0px 0px 10px darkred;
+	float: left;
+	margin: 10px;
+	
+	animation: parpadeo 5s; 
+	-moz-animation: parpadeo 5s; 
+	-webkit-animation: parpadeo 5s; 
+	
+	animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes parpadeo{
+	0% {box-shadow: 0px 0px 10px red;}
+	50% {box-shadow: 0px 0px 50px blue;}
+	100% {box-shadow: 0px 0px 10px orange;}
+}
+
+@-moz-keyframes parpadeo{
+	0% {-moz-box-shadow: 0px 0px 10px red;}
+	50% {-moz-box-shadow: 0px 0px 50px blue;}
+	100% {-moz-box-shadow: 0px 0px 10px orange;}
+}
+
+@-webkit-keyframes parpadeo{
+	0% {-webkit-box-shadow: 0px 0px 10px red;}
+	50% {-webkit-box-shadow: 0px 0px 50px red;}
+	100% {-webkit-box-shadow: 0px 0px 10px orange;}
+}
+
+	
+	animation: parpadeo 5s; 
+	-moz-animation: parpadeo 5s; 
+	-webkit-animation: parpadeo 5s; 
+	
+	animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes parpadeo{
+	0% {box-shadow: 0px 0px 10px red;}
+	50% {box-shadow: 0px 0px 50px blue;}
+	100% {box-shadow: 0px 0px 10px orange;}
+}
+
+@-moz-keyframes parpadeo{
+	0% {-moz-box-shadow: 0px 0px 10px red;}
+	50% {-moz-box-shadow: 0px 0px 50px blue;}
+	100% {-moz-box-shadow: 0px 0px 10px orange;}
+}
+
+@-webkit-keyframes parpadeo{
+	0% {-webkit-box-shadow: 0px 0px 10px red;}
+	50% {-webkit-box-shadow: 0px 0px 50px red;}
+	100% {-webkit-box-shadow: 0px 0px 10px orange;}
+}
+
+article{
+	width:55%;
+	background:rgba(251, 251, 251,1);
+	/*float: left;*/
+	margin:10px;
+	height: 100%;
+	/*display: table;*/
+	border: 1px solid blue;
+	border-radius: 0px 25px 0px 25px;
+	-moz-border-radius: 0px 25px 0px 25px;
+	-webkit-border-radius: 0px 25px 0px 25px;
+	
+	box-shadow: 3px 3px 10px black;
+	-moz-box-shadow: 3px 3px 10px black;
+	-webkit-box-shadow: 3px 3px 10px black;
+	
+	padding: 10px 10px 10px 150px;
+	
+	opacity: 0.4;
+	transition: opacity 1s, box-shadow 1s;
+	transform:scale(1,1);
+}
+
+article:hover{
+	box-shadow:0px 0px 25px black
+	-moz-box-shadow:0px 0px 25px black;
+	-webkit-box-shadow:0px 0px 25px black;
+	opacity: 1;
+	transform: scale(1.1,1.1);
+	background: rgba(255,255,255,1);
+	transition: opacity 1s, box-shadow 1s, transform 1s, background 1s;
+}
+
+#logoactualidad{
+	width: 100px;
+	height: 100px;
+	font-family: "ubuntu Bold";
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	background-image: url("actualidad-logo.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: block;
+	border: 1px solid white;
+	border-radius: 0px 10px 0px 10px;
+	-moz-border-radius:0px 10px 0px 10px;
+	-webkit-border-radius:0px 10px 0px 10px;
+	
+	box-shadow: 0px 0px 10px white;
+	-moz-box-shadow:0px 0px 10px white;
+	-webkit-box-shadow:0px 0px 10px white;
+	float: left;
+	margin: 10px;
+}
+
+#logonoticias{
+	width: 100px;
+	height: 100px;
+	font-family: "ubuntu Bold";
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	background-image: url("jumaji.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: block;
+	border: 1px solid white;
+	border-radius: 0px 10px 0px 10px;
+	-moz-border-radius:0px 10px 0px 10px;
+	-webkit-border-radius:0px 10px 0px 10px;
+	
+	box-shadow: 0px 0px 10px white;
+	-moz-box-shadow:0px 0px 10px white;
+	-webkit-box-shadow:0px 0px 10px white;
+	float: left;
+	margin: 10px;
+}
+
+#logovideo{
+	width: 100px;
+	height: 100px;
+	font-family: "ubuntu Bold";
+	font-size: 20px;
+	color: white;
+	text-align: right;
+	background-image: url("jumaji.jpgs");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: block;
+	border: 1px solid white;
+	border-radius: 0px 10px 0px 10px;
+	-moz-border-radius:0px 10px 0px 10px;
+	-webkit-border-radius:0px 10px 0px 10px;
+	
+	box-shadow: 0px 0px 10px white;
+	-moz-box-shadow:0px 0px 10px white;
+	-webkit-box-shadow:0px 0px 10px white;
+	float: left;
+	margin: 10px;
+}
+
+#logoaudio{
+	width: 100px;
+	height: 100px;
+	font-family: "ubuntu Bold";
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	background-image: url("jumaji.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: block;
+	border: 1px solid white;
+	border-radius: 0px 10px 0px 10px;
+	-moz-border-radius:0px 10px 0px 10px;
+	-webkit-border-radius:0px 10px 0px 10px;
+	
+	box-shadow: 0px 0px 10px white;
+	-moz-box-shadow:0px 0px 10px white;
+	-webkit-box-shadow:0px 0px 10px white;
+	float: left;
+	margin: 10px;
+}
+
+aside{
+	float: right;
+	display: inline-table;
+	width:20%;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: opx 25px 0px 25px;
+	-moz-border-radius: opx 25px 0px 25px;
+	-webkit-border-radius: opx 25px 0px 25px;
+	
+	box-shadow: 3px 3px 10px black;
+	-moz-box-shadow: 3px 3px 10px black;
+	-webkit-box-shadow: 3px 3px 10px black;
+	
+	text-decoration:none;
+}
+
+aside ul{
+	whidth: 100%;
+	height: 100%;
+	padding-left:0;
+	padding-right:0;
+	color:white;
+	float:left;
+	font-family: "ubuntu Regular";
+	font-size: 10px;
+	text-decoration: none;
+	list-style: none;
+}
+
+aside ul li{
+	width: 100%
+	text-decoration: none;
+	border: 1px solid white;
+	border-raius: 0px 5px 0px 5px;
+	-moz-border-radius:0px 5px 0px 5px;
+	-webkit-border-radius:0px 5px 0px 5px;
+}
+
+aside ul li a{
+	wifth: 100%;
+	height:30px;
+	overflow:hidden;
+	text-decoration: none;
+}
+
+#sobremi{
+	width:100%;
+	height:120px;
+	background:blue;
+	color: black;
+	display: table;
+	background: rgb(5, 153, 243); ;
+	font-size: 12px;
+	text-decoration:none;
+	text-align:justify;
+	overflow: hidden;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+	display: inline;
+	position: relative;
+}
+
+h1, h2{
+	transform: translate(150px, 0px);
+	position: relative;
+	color: white;
+	font-size: 14px;
+	top: -20px;
+	margin-top: 10px;
+	letter-spacing: 0px; 
+	display: inline;
+}
+
+nav{
+	display: inline;
+	float: right;
+	margin: 20px;
+}
+
+nav ul{
+	font-size: 12px;
+	padding-left:0px;
+	margin-left:0px;
+	background-color: blue;
+	color: black;
+	width:50%;
+	font-family: "ubuntu Regular";
+	position: relative;
+	display: inline;
+}
+
+nav ul li{
+	display: inline;
+	text-align: center;
+}
+
+nav ul a{
+	background: #1f37ec;
+	color: white;
+	text-decoration: none;
+	float: right;
+	border: 1px solid blue;
+	
+	border-radius: 0px 10px 0px 10px;
+	-moz-border-radius: 0px 10px 0px 10px;
+	-webkit-border-radius: 0px 10px 0px 10px;
+	
+	box-shadow: 0px 0px 5px white;
+	-moz-box-shadow: 0px 0px 5px white;
+	-webkit-box-shadow: 0px 0px 5px white;
+	
+	width: 80px;
+}
+
+nav ul li a:hover{ 
+	background: blue;
+	color: black;
+	box-shadow: 0px 0px 25px white;
+	-moz-box-shadow: 0px 0px 25px white;
+	-webkit-box-shadow: 0px 0px 25px white;
+}
+
+time{
+	font-family:"ubuntu Regular";
+	font-size:10px;
+}
